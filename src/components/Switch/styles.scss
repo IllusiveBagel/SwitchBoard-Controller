@@ -28,37 +28,40 @@ $grid-gutter-width: 20px;
     // Detail
     // **************************
     &__icon {
+        height: 210px;
+        width: 186px;
+        text-align: left;
+        display: inline-block;
+        margin: 0;
         position: relative;
-        height: 70px;
-        width: 62px;
-        $root: &;
+        z-index: 2;
 
         &-stem {
+            transform: scale3d(3, 3, 3);
+            top: 58px;
             position: absolute;
-            top: 0;
-            left: 15px;
+            left: 78px;
             z-index: 1;
-            transition: all .1s ease-in-out;
+            transition: all 0.1s ease-in-out;
         }
 
         &-housing-top {
+            top: 74px;
+            transform: translateX(0.2px) scale3d(3, 3, 3);
             position: absolute;
-            top: 14px;
-            left: 1px;
-            transform: translateX(0.2px);
+            left: 64px;
             z-index: 2;
         }
 
         &-housing-bottom {
+            top: 145px;
+            transform: scale3d(3, 3, 3);
             position: absolute;
-            top: 34px;
-            left: 0;
+            left: 63px;
             z-index: 2;
-        }
 
-        &:hover {
-            #{$root}-stem {
-                top: 12px;
+            @media all and (-ms-high-contrast:none) {
+                top: 84px;
             }
         }
     }

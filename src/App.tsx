@@ -1,10 +1,10 @@
 import Switch from './components/Switch/Switch'
 
-import './App.css'
+import styles from './App.module.scss';
 
-function App() {
+const App = () => {
 	return (
-		<>
+		<div className={styles.container}>
 			<Switch
 				id="Test"
 				stemColor="237,237,54"
@@ -16,7 +16,7 @@ function App() {
 				housingBottomColor="179,131,226"
 				mount="5"
 			/>
-		</>
+		</div>
 	)
 }
 
