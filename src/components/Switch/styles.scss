@@ -1,0 +1,65 @@
+$smx-color-00: #EFEFEF;
+$smx-color-01: #282A30;
+$smx-color-02: #3D3D3D;
+$smx-color-03: #939393;
+$smx-color-05: #C4C4C4;
+$smx-color-07: #ECECEC;
+$smx-color-06: #F9F9F9;
+$smx-color-04: #CF3947;
+$smx-color-08: #3D9D24;
+
+$smx-color-10: #7289DA;
+
+$grid-gutter-width: 20px;
+
+.c-switch {
+    background: #fff;
+    margin: 0 0 ($grid-gutter-width * 1.5);
+    padding: calc($grid-gutter-width / 2);
+    border-radius: calc($grid-gutter-width / 2);
+    color: $smx-color-02;
+    letter-spacing: -0.02em;
+    line-height: 1.4;
+    transition: all .4s ease-in-out;
+    position: relative;
+    min-height: 125px;
+
+    // **************************
+    // Detail
+    // **************************
+    &__icon {
+        position: relative;
+        height: 70px;
+        width: 62px;
+        $root: &;
+
+        &-stem {
+            position: absolute;
+            top: 0;
+            left: 15px;
+            z-index: 1;
+            transition: all .1s ease-in-out;
+        }
+
+        &-housing-top {
+            position: absolute;
+            top: 14px;
+            left: 1px;
+            transform: translateX(0.2px);
+            z-index: 2;
+        }
+
+        &-housing-bottom {
+            position: absolute;
+            top: 34px;
+            left: 0;
+            z-index: 2;
+        }
+
+        &:hover {
+            #{$root}-stem {
+                top: 12px;
+            }
+        }
+    }
+}
