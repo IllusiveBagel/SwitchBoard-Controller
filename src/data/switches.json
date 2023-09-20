@@ -16,7 +16,8 @@
         "type": "Linear",
         "factoryLubed": false,
         "manufacturer": "cherry",
-        "brand": "cherry-mx"
+        "brand": "cherry-mx",
+        "grid": "(0, 0)"
     },
     {
         "id": "0002",
@@ -35,7 +36,8 @@
         "type": "Linear",
         "factoryLubed": false,
         "manufacturer": "cherry",
-        "brand": "cherry-mx"
+        "brand": "cherry-mx",
+        "grid": "(1, 0)"
     },
     {
         "id": "0003",
@@ -54,7 +56,8 @@
         "type": "Tactile",
         "factoryLubed": false,
         "manufacturer": "cherry",
-        "brand": "cherry-mx"
+        "brand": "cherry-mx",
+        "grid": "(2, 0)"
     },
     {
         "id": "0004",
@@ -73,7 +76,8 @@
         "type": "Clicky",
         "factoryLubed": false,
         "manufacturer": "cherry",
-        "brand": "cherry-mx"
+        "brand": "cherry-mx",
+        "grid": "(3, 0)"
     },
     {
         "id": "0005",
@@ -92,7 +96,8 @@
         "type": "Clicky",
         "factoryLubed": false,
         "manufacturer": "cherry",
-        "brand": "cherry-mx"
+        "brand": "cherry-mx",
+        "grid": "(4, 0)"
     },
     {
         "id": "0006",
@@ -111,7 +116,8 @@
         "type": "Tactile",
         "factoryLubed": false,
         "manufacturer": "cherry",
-        "brand": "cherry-mx"
+        "brand": "cherry-mx",
+        "grid": "(0, 1)"
     },
     {
         "id": "0007",
@@ -130,7 +136,8 @@
         "type": "Clicky",
         "factoryLubed": false,
         "manufacturer": "cherry",
-        "brand": "cherry-mx"
+        "brand": "cherry-mx",
+        "grid": "(1, 1)"
     },
     {
         "id": "0008",
@@ -149,7 +156,8 @@
         "type": "Tactile",
         "factoryLubed": false,
         "manufacturer": "cherry",
-        "brand": "cherry-mx"
+        "brand": "cherry-mx",
+        "grid": "(2, 1)"
     },
     {
         "id": "0009",
@@ -168,7 +176,8 @@
         "type": "Linear",
         "factoryLubed": false,
         "manufacturer": "cherry",
-        "brand": "cherry-mx"
+        "brand": "cherry-mx",
+        "grid": "(3, 1)"
     },
     {
         "id": "0010",
@@ -187,7 +196,8 @@
         "type": "Linear",
         "factoryLubed": false,
         "manufacturer": "gateron",
-        "brand": "gateron"
+        "brand": "gateron",
+        "grid": "(4, 1)"
     },
     {
         "id": "0011",
@@ -206,7 +216,8 @@
         "type": "Linear",
         "factoryLubed": false,
         "manufacturer": "gateron",
-        "brand": "gateron"
+        "brand": "gateron",
+        "grid": "(0, 2)"
     },
     {
         "id": "0012",
@@ -225,7 +236,8 @@
         "type": "Tactile",
         "factoryLubed": false,
         "manufacturer": "gateron",
-        "brand": "gateron"
+        "brand": "gateron",
+        "grid": "(1, 2)"
     },
     {
         "id": "0013",
@@ -244,7 +256,8 @@
         "type": "Clicky",
         "factoryLubed": false,
         "manufacturer": "gateron",
-        "brand": "gateron"
+        "brand": "gateron",
+        "grid": "(2, 2)"
     },
     {
         "id": "0014",
@@ -263,7 +276,8 @@
         "type": "Clicky",
         "factoryLubed": false,
         "manufacturer": "gateron",
-        "brand": "gateron"
+        "brand": "gateron",
+        "grid": "(3, 2)"
     },
     {
         "id": "0015",
@@ -282,7 +296,8 @@
         "type": "Linear",
         "factoryLubed": false,
         "manufacturer": "gateron",
-        "brand": "gateron"
+        "brand": "gateron",
+        "grid": "(4, 2)"
     },
     {
         "id": "0016",
@@ -301,6 +316,7 @@
         "type": "Linear",
         "factoryLubed": false,
         "manufacturer": "gateron",
-        "brand": "gateron"
+        "brand": "gateron",
+        "grid": "(0, 3)"
     }
 ]
