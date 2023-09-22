@@ -118,7 +118,7 @@ const Switch:React.FC<Switch> = ({
                 {mount === '5' &&
                     <HousingBottomFive housingBottomFill={housingBottomFill} />
                 }
-                {mount === 'Both' &&
+                {mount === 'both' &&
                     <HousingBottomFive housingBottomFill={housingBottomFill} />
                 }
                 {mount === '3' &&

@@ -39,7 +39,7 @@ body {
 .container {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
 }
@@ -47,45 +47,82 @@ body {
 .header {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: calc(100% - 30px);
     margin: 30px 0 0 30px;
+
+    .title {
+        margin: 0 auto;
+        width: 70%;
+
+        .switchName {
+            font-size: 3.5rem;
+            color: $base00;
+            margin-bottom: 0;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .switchBrand {
+            margin-top: 0;
+            text-align: center;
+            color: $magenta;
+        }
+
+        .icons {
+            width: 80%;
+            margin: 0 12% 0 8%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .switchType {
+                height: 60px;
+            }
+
+            .switchMount {
+                height: 60px;
+            }
+
+            .switchVolume {
+                height: 60px;
+            }
+        }
+    }
 }
 
-.title {
-    margin: 0 auto;
-    width: 70%;
-}
+.content {
+    width: calc(100% - 30px);
+    margin: 60px 0 0 30px;
 
-.switchName {
-    font-size: 3.5rem;
-    color: $base00;
-    margin-bottom: 0;
-    margin-top: 0;
-    text-align: center;
-}
+    .switchData {
+        border: 3px solid $base00;
+        border-radius: 25px;
+        width: 50%;
+        height: 300px;
+        border-spacing: 0;;
 
-.switchBrand {
-    margin-top: 0;
-    text-align: center;
-    color: $magenta;
-}
+        th {
+            width: 25%;
+            text-align: left;
+            padding-left: 20px;
+            border-bottom: 2px solid $base00;
+            font-size: 1.2rem;
 
-.icons {
-    width: 80%;
-    margin: 0 12% 0 8%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+            &.last {
+                border-bottom: none;
+            }
+        }
 
-.switchType {
-    height: 60px;
-}
+        td {
+            width: 25%;
+            text-align: center;
+            border-bottom: 2px solid $base00;
+            font-size: 1.2rem;
+            color: $green;
 
-.switchMount {
-    height: 60px;
-}
-
-.switchVolume {
-    height: 60px;
+            &.last {
+                border-bottom: none;
+            }
+        }
+    }
 }

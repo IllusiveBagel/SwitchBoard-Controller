@@ -12,7 +12,7 @@ const App = () => {
 	const data = {
 		id: "0001",
 		name: "MX Black",
-		switchData: {
+		switchDesign: {
 			stemColor: "58,64,69",
 			stemType: "standard",
 			stemConstruction: "standard",
@@ -20,10 +20,20 @@ const App = () => {
 			housingTopColor: "58,64,69",
 			housingBottomType: "standard",
 			housingBottomColor: "58,64,69",
-			mount: "Both"
+			mount: "both"
 		},
-		volume: "Normal",
-		type: "Linear",
+		switchData: {
+			actuation: 60,
+			bottomOut: 80,
+			preTravel: 2,
+			totalTravel: 4
+		},
+		spring: {
+			type: "standard",
+
+		},
+		volume: "normal",
+		type: "linear",
 		factoryLubed: false,
 		manufacturer: "cherry",
 		brand: "cherry-mx",
@@ -32,11 +42,11 @@ const App = () => {
 
 	const Type = () => {
 		switch (data.type) {
-			case "Clicky":
+			case "clicky":
 				return <img src={Clicky} className='switchType' />
-			case "Linear":
+			case "linear":
 				return <img src={Linear} className='switchType' />
-			case "Tactile":
+			case "tactile":
 				return <img src={Tactile} className='switchType' />
 			default:
 				return <img src={Linear} className='switchType' />
@@ -44,12 +54,12 @@ const App = () => {
 	}
 
 	const Mount = () => {
-		switch (data.switchData.mount) {
+		switch (data.switchDesign.mount) {
 			case "3":
 				return <img src={Plate} className='switchMount' />
 			case "5":
 				return <img src={PCB} className='switchMount' />
-			case "Both":
+			case "both":
 				return <img src={PCB} className='switchMount' />
 			default:
 				return <img src={PCB} className='switchMount' />
@@ -58,11 +68,11 @@ const App = () => {
 
 	const Volume = () => {
 		switch (data.volume) {
-			case "Silent":
+			case "silent":
 				return <img src={Silent} className='switchVolume' />
-			case "Normal":
+			case "normal":
 				return <img src={Normal} className='switchVolume' />
-			case "Loud":
+			case "loud":
 				return <img src={Loud} className='switchVolume' />
 			default:
 				return <img src={Normal} className='switchVolume' />
@@ -74,14 +84,14 @@ const App = () => {
 			<div className='header'>
 				<Switch
 					id={data.id}
-					stemColor={data.switchData.stemColor}
-					stemType={data.switchData.stemType}
-					stemConstruction={data.switchData.stemConstruction}
-					housingTopType={data.switchData.housingTopType}
-					housingTopColor={data.switchData.housingTopColor}
-					housingBottomType={data.switchData.housingBottomType}
-					housingBottomColor={data.switchData.housingBottomColor}
-					mount={data.switchData.mount}
+					stemColor={data.switchDesign.stemColor}
+					stemType={data.switchDesign.stemType}
+					stemConstruction={data.switchDesign.stemConstruction}
+					housingTopType={data.switchDesign.housingTopType}
+					housingTopColor={data.switchDesign.housingTopColor}
+					housingBottomType={data.switchDesign.housingBottomType}
+					housingBottomColor={data.switchDesign.housingBottomColor}
+					mount={data.switchDesign.mount}
 				/>
 				<div className='title'>
 					<h1 className='switchName'>{data.name}</h1>
@@ -92,6 +102,28 @@ const App = () => {
 						<Volume />
 					</div>
 				</div>
+			</div>
+			<div className="content">
+				<table className="switchData">
+					<tbody>
+						<tr>
+							<th>Actuation:</th>
+							<td>{data.switchData.actuation}g</td>
+						</tr>
+						<tr>
+							<th>Bottom-out:</th>
+							<td>{data.switchData.bottomOut}g</td>
+						</tr>
+						<tr>
+							<th>Pre-travel:</th>
+							<td>{data.switchData.preTravel}mm</td>
+						</tr>
+						<tr>
+							<th className='last'>Total travel:</th>
+							<td className='last'>{data.switchData.totalTravel}mm</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
 	)
