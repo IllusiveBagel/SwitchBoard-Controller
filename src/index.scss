@@ -134,6 +134,10 @@ body {
         height: 100%;
         margin: 0 0 0 18px;
 
+        h4 {
+            margin-right: 25px;
+        }
+
         .springContainer {
             width: 100%;
             height: calc(50% - 15px);
@@ -143,10 +147,6 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-
-            h4 {
-                margin-right: 25px;
-            }
 
             .spring {
                 position: relative;
@@ -161,6 +161,13 @@ body {
             height: calc(50% - 15px);
             border: 3px solid $base00;
             border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .lubed {
+                transform: scale(2,2);
+            }
         }
     }
 }

@@ -1,5 +1,8 @@
 import Switch from './components/Switch/Switch'
-import Spring from './components/Spring/Spring'
+import { 
+	Spring,
+	Lubed
+} from './components/Icons'
 import Clicky from './assets/switch_type_clicky.svg'
 import Linear from './assets/switch_type_linear.svg'
 import Tactile from './assets/switch_type_tactile.svg'
@@ -98,7 +101,7 @@ const App = () => {
 				/>
 				<div className='title'>
 					<h1 className='switchName'>{data.name}</h1>
-					<h3 className='switchBrand'>{data.manufacturer}</h3>
+					<h3 className='switchBrand'>{data.manufacturer} - {data.brand}</h3>
 					<div className='icons'>
 						<Type />
 						<Mount />
@@ -133,7 +136,8 @@ const App = () => {
 						<Spring color='#B9B9B9' />
 					</div>
 					<div className='lubeContainer'>
-
+						<h4>{data.factoryLubed ? 'Factory Lubed' : 'Not Lubed'}</h4>
+						<Lubed />
 					</div>
 				</div>
 			</div>
