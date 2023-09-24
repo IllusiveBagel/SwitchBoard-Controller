@@ -1,0 +1,322 @@
+[
+    {
+        "id": "0001",
+        "name": "MX Black",
+        "switchDesign": {
+            "stemColor": "58,64,69",
+            "stemType": "standard",
+            "stemConstruction": "standard",
+            "housingTopType": "standard",
+            "housingTopColor": "58,64,69",
+            "housingBottomType": "standard",
+            "housingBottomColor": "58,64,69",
+            "mount": "both"
+        },
+        "switchConstruction": {
+            "stem": "POM",
+            "housingTop": "Nylon",
+            "housingBottom": "Nylon"
+        },
+        "switchData": {
+            "actuation": 60,
+            "bottomOut": 80,
+            "preTravel": 2,
+            "totalTravel": 4
+        },
+        "spring": "stainless-steel",
+        "volume": "normal",
+        "type": "linear",
+        "factoryLubed": false,
+        "manufacturer": "cherry",
+        "brand": "cherry-mx",
+        "grid": "(0, 0)"
+    },
+    {
+        "id": "0002",
+        "name": "MX Red",
+        "switchDesign": {
+            "stemColor": "220,65,58",
+            "stemType": "standard",
+            "stemConstruction": "standard",
+            "housingTopType": "standard",
+            "housingTopColor": "58,64,69",
+            "housingBottomType": "standard",
+            "housingBottomColor": "58,64,69",
+            "mount": "both"
+        },
+        "switchConstruction": {
+            "stem": "POM",
+            "housingTop": "Nylon",
+            "housingBottom": "Nylon"
+        },
+        "switchData": {
+            "actuation": 45,
+            "bottomOut": 60,
+            "preTravel": 2,
+            "totalTravel": 4
+        },
+        "spring": "stainless-steel",
+        "volume": "normal",
+        "type": "linear",
+        "factoryLubed": false,
+        "manufacturer": "cherry",
+        "brand": "cherry-mx",
+        "grid": "(1, 0)"
+    },
+    {
+        "id": "0003",
+        "name": "MX Brown",
+        "switchDesign": {
+            "stemColor": "103,72,66",
+            "stemType": "standard",
+            "stemConstruction": "standard",
+            "housingTopType": "standard",
+            "housingTopColor": "58,64,69",
+            "housingBottomType": "standard",
+            "housingBottomColor": "58,64,69",
+            "mount": "both"
+        },
+        "switchConstruction": {
+            "stem": "POM",
+            "housingTop": "Nylon",
+            "housingBottom": "Nylon"
+        },
+        "switchData": {
+            "actuation": 45,
+            "bottomOut": 55,
+            "preTravel": 2,
+            "totalTravel": 4
+        },
+        "spring": "stainless-steel",
+        "volume": "normal",
+        "type": "tactile",
+        "factoryLubed": false,
+        "manufacturer": "cherry",
+        "brand": "cherry-mx",
+        "grid": "(2, 0)"
+    },
+    {
+        "id": "0004",
+        "name": "MX Blue",
+        "switchDesign": {
+            "stemColor": "68,169,255",
+            "stemType": "standard",
+            "stemConstruction": "standard",
+            "housingTopType": "standard",
+            "housingTopColor": "58,64,69",
+            "housingBottomType": "standard",
+            "housingBottomColor": "58,64,69",
+            "mount": "both"
+        },
+        "switchConstruction": {
+            "stem": "POM",
+            "housingTop": "Nylon",
+            "housingBottom": "Nylon"
+        },
+        "switchData": {
+            "actuation": 60,
+            "bottomOut": 60,
+            "preTravel": 2,
+            "totalTravel": 4
+        },
+        "spring": "stainless-steel",
+        "volume": "loud",
+        "type": "clicky",
+        "factoryLubed": false,
+        "manufacturer": "cherry",
+        "brand": "cherry-mx",
+        "grid": "(3, 0)"
+    },
+    {
+        "id": "0005",
+        "name": "MX Green",
+        "switchDesign": {
+            "stemColor": "23,153,118",
+            "stemType": "standard",
+            "stemConstruction": "standard",
+            "housingTopType": "standard",
+            "housingTopColor": "58,64,69",
+            "housingBottomType": "standard",
+            "housingBottomColor": "58,64,69",
+            "mount": "both"
+        },
+        "switchConstruction": {
+            "stem": "POM",
+            "housingTop": "Nylon",
+            "housingBottom": "Nylon"
+        },
+        "switchData": {
+            "actuation": 80,
+            "bottomOut": 90,
+            "preTravel": 2,
+            "totalTravel": 4
+        },
+        "spring": "stainless-steel",
+        "volume": "loud",
+        "type": "clicky",
+        "factoryLubed": false,
+        "manufacturer": "cherry",
+        "brand": "cherry-mx",
+        "grid": "(4, 0)"
+    },
+    {
+        "id": "0006",
+        "name": "MX Clear",
+        "switchDesign": {
+            "stemColor": "103,72,66",
+            "stemType": "milky",
+            "stemConstruction": "standard",
+            "housingTopType": "standard",
+            "housingTopColor": "58,64,69",
+            "housingBottomType": "standard",
+            "housingBottomColor": "58,64,69",
+            "mount": "both"
+        },
+        "switchConstruction": {
+            "stem": "POM",
+            "housingTop": "Nylon",
+            "housingBottom": "Nylon"
+        },
+        "switchData": {
+            "actuation": 65,
+            "bottomOut": 95,
+            "preTravel": 2,
+            "totalTravel": 4
+        },
+        "spring": "stainless-steel",
+        "volume": "normal",
+        "type": "tactile",
+        "factoryLubed": false,
+        "manufacturer": "cherry",
+        "brand": "cherry-mx",
+        "grid": "(0, 1)"
+    },
+    {
+        "id": "0007",
+        "name": "MX White",
+        "switchDesign": {
+            "stemColor": "255,255,255",
+            "stemType": "standard",
+            "stemConstruction": "standard",
+            "housingTopType": "standard",
+            "housingTopColor": "58,64,69",
+            "housingBottomType": "standard",
+            "housingBottomColor": "58,64,69",
+            "mount": "both"
+        },
+        "switchConstruction": {
+            "stem": "POM",
+            "housingTop": "Nylon",
+            "housingBottom": "Nylon"
+        },
+        "switchData": {
+            "actuation": 65,
+            "bottomOut": 95,
+            "preTravel": 2,
+            "totalTravel": 4
+        },
+        "spring": "stainless-steel",
+        "volume": "loud",
+        "type": "clicky",
+        "factoryLubed": false,
+        "manufacturer": "cherry",
+        "brand": "cherry-mx",
+        "grid": "(1, 1)"
+    },
+    {
+        "id": "0008",
+        "name": "MX Grey",
+        "switchDesign": {
+            "stemColor": "209, 209, 209",
+            "stemType": "standard",
+            "stemConstruction": "standard",
+            "housingTopType": "standard",
+            "housingTopColor": "58,64,69",
+            "housingBottomType": "standard",
+            "housingBottomColor": "58,64,69",
+            "mount": "both"
+        },
+        "switchConstruction": {
+            "stem": "POM",
+            "housingTop": "Nylon",
+            "housingBottom": "Nylon"
+        },
+        "switchData": {
+            "actuation": 80,
+            "bottomOut": 120,
+            "preTravel": 2,
+            "totalTravel": 4
+        },
+        "spring": "stainless-steel",
+        "volume": "normal",
+        "type": "tactile",
+        "factoryLubed": false,
+        "manufacturer": "cherry",
+        "brand": "cherry-mx",
+        "grid": "(2, 1)"
+    },
+    {
+        "id": "0009",
+        "name": "MX Speed Silver",
+        "switchDesign": {
+            "stemColor": "188,188,188",
+            "stemType": "standard",
+            "stemConstruction": "standard",
+            "housingTopType": "standard",
+            "housingTopColor": "58,64,69",
+            "housingBottomType": "standard",
+            "housingBottomColor": "58,64,69",
+            "mount": "both"
+        },
+        "switchConstruction": {
+            "stem": "POM",
+            "housingTop": "Nylon",
+            "housingBottom": "Nylon"
+        },
+        "switchData": {
+            "actuation": 46,
+            "bottomOut": 71,
+            "preTravel": 1.2,
+            "totalTravel": 3.4
+        },
+        "spring": "stainless-steel",
+        "volume": "normal",
+        "type": "linear",
+        "factoryLubed": false,
+        "manufacturer": "cherry",
+        "brand": "cherry-mx",
+        "grid": "(3, 1)"
+    },
+    {
+        "id": "0010",
+        "name": "Black",
+        "switchDesign": {
+            "stemColor": "58,64,69",
+            "stemType": "standard",
+            "stemConstruction": "standard",
+            "housingTopType": "transparent",
+            "housingTopColor": "255,255,255",
+            "housingBottomType": "standard",
+            "housingBottomColor": "58,64,69",
+            "mount": "both"
+        },
+        "switchConstruction": {
+            "stem": "POM",
+            "housingTop": "PC",
+            "housingBottom": "Nylon"
+        },
+        "switchData": {
+            "actuation": 60,
+            "bottomOut": 75,
+            "preTravel": 2,
+            "totalTravel": 4
+        },
+        "spring": "stainless-steel",
+        "volume": "normal",
+        "type": "linear",
+        "factoryLubed": false,
+        "manufacturer": "gateron",
+        "brand": "gateron",
+        "grid": "(4, 1)"
+    }
+]

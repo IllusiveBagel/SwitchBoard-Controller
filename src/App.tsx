@@ -11,9 +11,11 @@ import PCB from './assets/switch_mount_pcb.svg'
 import Silent from './assets/volume-silent.svg'
 import Normal from './assets/volume-normal.svg'
 import Loud from './assets/volume-loud.svg'
+import switchsJson from './data/new-switches.json'
 
 const App = () => {
-	const data = {
+	const gridRef = document.getElementById('switch')?.innerHTML;
+	const data = switchsJson.find(item => item.grid === gridRef) || {
 		"id": "0001",
 		"name": "MX Black",
 		"switchDesign": {
