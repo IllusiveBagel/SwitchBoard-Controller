@@ -1,0 +1,32 @@
+{
+    "id": "0001",
+    "name": "MX Black",
+    "switchDesign": {
+        "stemColor": "58,64,69",
+        "stemType": "standard",
+        "stemConstruction": "standard",
+        "housingTopType": "standard",
+        "housingTopColor": "58,64,69",
+        "housingBottomType": "standard",
+        "housingBottomColor": "58,64,69",
+        "mount": "both"
+    },
+    "switchConstruction": {
+        "stem": "POM",
+        "housingTop": "Nylon",
+        "housingBottom": "Nylon"
+    },
+    "switchData": {
+        "actuation": 60,
+        "bottomOut": 80,
+        "preTravel": 2,
+        "totalTravel": 4
+    },
+    "spring": "stainless-steel",
+    "volume": "normal",
+    "type": "linear",
+    "factoryLubed": false,
+    "manufacturer": "cherry",
+    "brand": "cherry-mx",
+    "grid": "(0, 0)"
+}

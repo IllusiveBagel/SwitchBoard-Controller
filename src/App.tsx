@@ -1,4 +1,5 @@
 import Switch from './components/Switch/Switch'
+import Spring from './components/Spring/Spring'
 import Clicky from './assets/switch_type_clicky.svg'
 import Linear from './assets/switch_type_linear.svg'
 import Tactile from './assets/switch_type_tactile.svg'
@@ -10,34 +11,36 @@ import Loud from './assets/volume-loud.svg'
 
 const App = () => {
 	const data = {
-		id: "0001",
-		name: "MX Black",
-		switchDesign: {
-			stemColor: "58,64,69",
-			stemType: "standard",
-			stemConstruction: "standard",
-			housingTopType: "standard",
-			housingTopColor: "58,64,69",
-			housingBottomType: "standard",
-			housingBottomColor: "58,64,69",
-			mount: "both"
+		"id": "0001",
+		"name": "MX Black",
+		"switchDesign": {
+			"stemColor": "58,64,69",
+			"stemType": "standard",
+			"stemConstruction": "standard",
+			"housingTopType": "standard",
+			"housingTopColor": "58,64,69",
+			"housingBottomType": "standard",
+			"housingBottomColor": "58,64,69",
+			"mount": "both"
 		},
-		switchData: {
-			actuation: 60,
-			bottomOut: 80,
-			preTravel: 2,
-			totalTravel: 4
+		"switchConstruction": {
+			"stem": "POM",
+			"housingTop": "Nylon",
+			"housingBottom": "Nylon"
 		},
-		spring: {
-			type: "standard",
-
+		"switchData": {
+			"actuation": 60,
+			"bottomOut": 80,
+			"preTravel": 2,
+			"totalTravel": 4
 		},
-		volume: "normal",
-		type: "linear",
-		factoryLubed: false,
-		manufacturer: "cherry",
-		brand: "cherry-mx",
-		grid: "(0, 0)"
+		"spring": "stainless-steel",
+		"volume": "normal",
+		"type": "linear",
+		"factoryLubed": false,
+		"manufacturer": "cherry",
+		"brand": "cherry-mx",
+		"grid": "(0, 0)"
 	}
 
 	const Type = () => {
@@ -124,6 +127,15 @@ const App = () => {
 						</tr>
 					</tbody>
 				</table>
+				<div className='contentRight'>
+					<div className='springContainer'>
+						<h4>Stainless Steel</h4>
+						<Spring color='#B9B9B9' />
+					</div>
+					<div className='lubeContainer'>
+
+					</div>
+				</div>
 			</div>
 		</div>
 	)
