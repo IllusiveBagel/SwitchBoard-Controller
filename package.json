@@ -11,7 +11,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "vite-plugin-svgr": "^4.0.0"
+    "vite-plugin-svgr": "^4.0.0",
+    "raspi": "^6.0.1",
+    "raspi-i2c": "^6.2.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.21",
