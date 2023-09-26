@@ -26,7 +26,7 @@ function createWindow() {
     fullscreen: true,
     icon: path.join(process.env.VITE_PUBLIC, 'electron-vite.svg'),
     webPreferences: {
-      sandbox: false,
+      nodeIntegration: true,
       preload: path.join(__dirname, 'preload.js'),
     },
   })
