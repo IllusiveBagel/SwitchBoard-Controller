@@ -1,7 +1,7 @@
-const raspi = require('raspi');
-const I2C = require('raspi-i2c').I2C;
+import { init } from 'raspi';
+import { I2C } from 'raspi-i2c';
 
-raspi.init(() => {
+init(() => {
 	console.log("Init");
 	const i2c = new I2C();
 	let switchData = "";
