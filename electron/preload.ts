@@ -1,20 +1,7 @@
-const raspi = require('raspi');
-const I2C = require('raspi-i2c').I2C;
+const path = require('path')
 
-raspi.init(() => {
-	console.log("Init");
-	const i2c = new I2C();
-	let switchData = "";
+const worker = new Worker(path.resolve(__dirname, 'worker.js'))
 
-	// eslint-disable-next-line no-constant-condition
-	while (true) {
-		const input = i2c.readSync(0x40, 0x00, 0x06).toString();
-
-		if(input !== switchData) {
-			switchData = input;
-			console.log(switchData);
-            const element = document.getElementById("switch")!;
-            element.innerHTML = switchData;
-		}
-	}
-});
+worker.onmessage = (event) => {
+    document.getElementById('switch')!.innerText = event.data
+}
