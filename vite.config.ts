@@ -13,7 +13,7 @@ export default defineConfig(({ command }) => ({
 			entry: [
 				'electron/main.ts',
 				'electron/preload.ts',
-				'electron/worker.ts'
+				//'electron/worker.ts'
 			],
 			vite: {
 				plugins: [
