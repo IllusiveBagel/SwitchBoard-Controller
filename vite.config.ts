@@ -6,19 +6,20 @@ import { notBundle } from 'vite-plugin-electron/plugin'
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command }) => ({
-  plugins: [
-    react(),
-    electron({
-        entry: [
-          'electron/main.ts',
-          'electron/preload.ts'
-        ],
-        vite: {
-          plugins: [
-            command === 'serve' && notBundle(/* NotBundleOptions */),
-          ],
-        },
-      },
-    ),
-  ],
+	plugins: [
+		react(),
+		electron({
+			entry: [
+				'electron/main.ts',
+				'electron/preload.ts',
+				'electron/worker.ts'
+			],
+			vite: {
+				plugins: [
+					command === 'serve' && notBundle(/* NotBundleOptions */),
+				],
+			},
+		},
+		),
+	],
 }));
