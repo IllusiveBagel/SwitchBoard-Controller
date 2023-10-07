@@ -1,7 +1,21 @@
-const path = require('path')
+import { init } from 'raspi';
+import { I2C } from 'raspi-i2c';
 
-const worker = new Worker(path.resolve(__dirname, 'worker.js'))
+init(() => {
+    console.log("Init");
+    const i2c = new I2C();
+    let switchData = "";
 
-worker.onmessage = (event) => {
-    document.getElementById('switch')!.innerText = event.data
-}
+    // eslint-disable-next-line no-constant-condition
+    while (true) {
+        const input = i2c.readSync(0x40, 0x00, 0x06).toString();
+
+        if(input !== switchData) {
+            switchData = input;
+            console.log(switchData);
+            //postMessage(switchData);
+            //const element = document.getElementById("switch");
+            //element.innerHTML = switchData;
+        }
+    }
+});
